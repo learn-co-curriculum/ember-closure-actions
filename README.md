@@ -16,7 +16,7 @@ For the purposes of this example, we'll be working with a basic Ember CRUD app t
 
 We'd like our user's interaction with the "edit" functionality to be beautiful and seamless. We want something like this:
 
-![](/content/images/2015/11/flybrary.gif)
+![](http://readme-pics.s3.amazonaws.com/flybrary.mov)
 
 In order to implement the above functionality, we'll need to be able to toggle a given resource between "editing" and "not editing" states and be able to accept and save changes made to a resource when it is in the "editing" state. 
 
