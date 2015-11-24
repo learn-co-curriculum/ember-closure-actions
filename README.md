@@ -2,7 +2,7 @@
 
 ## Introduction
 
-One of the most powerful features of Ember is it's responsiveness. What does that mean? It means that the application is fast and easy to interact with––when a user requests something, via visiting a new page, clicking a button or entering a search query, they not only receive it, but they receive it quickly and seamlessly. 
+One of the most powerful features of Ember is its responsiveness. What does that mean? It means that the application is fast and easy to interact with––when a user requests something, via visiting a new page, clicking a button or entering a search query, they not only receive it, but they receive it quickly and seamlessly. 
 
 One of the most common interactions between a user and your basic CRUD app is that of editing a record. Maybe a user is editing their personal profile or the quantity of items in their shopping cart or the description of an item they've posted for sale. In any case, it's easy to imagine a situation in which the person interacting with your app is editing some content that you are presenting to them. 
 
