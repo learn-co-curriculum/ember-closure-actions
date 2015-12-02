@@ -282,3 +282,5 @@ We saw how to:
 Closure actions allow us to define actions and use them across components. They make it easy to give your normally isolated component access to the context of it's parent template (or templates). They also allow for actions to be passed down through a series of nested components. 
 
 For further reading on Ember's closure actions, check out [this great post](http://alexdiliberto.com/posts/ember-closure-actions/) by Alex DiLiberto.
+
+<a href='https://learn.co/lessons/ember-closure-actions' data-visibility='hidden'>View this lesson on Learn.co</a>
