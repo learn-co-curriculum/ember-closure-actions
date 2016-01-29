@@ -283,4 +283,4 @@ Closure actions allow us to define actions and use them across components. They 
 
 For further reading on Ember's closure actions, check out [this great post](http://alexdiliberto.com/posts/ember-closure-actions/) by Alex DiLiberto.
 
-<a href='https://learn.co/lessons/ember-closure-actions' data-visibility='hidden'>View this lesson on Learn.co</a>
+<p data-visibility='hidden'>View <a href='https://learn.co/lessons/ember-closure-actions' title='Ember Components and Closure Actions'>Ember Components and Closure Actions</a> on Learn.co and start learning to code for free.</p>
