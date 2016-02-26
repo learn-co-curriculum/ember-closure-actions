@@ -285,7 +285,7 @@ saveChanges: ()
 __proto__: Object
 ```
 
-`this` is the component itself and `.attrs` are the attributes of `resource` and `saveChangs` that we assigned to our component when we called it in the parent template. `resource` is set to an object (the model object that was passed in when we rendered the component) and `saveChanges` is set equal to a function.
+`this` is the component itself and `.attrs` are the attributes of `resource` and `saveChanges` that we assigned to our component when we called it in the parent template. `resource` is set to an object (the model object that was passed in when we rendered the component) and `saveChanges` is set equal to a function.
 
 So, to invoke the `saveChanges` function, we must grab it first from `this.attrs`. 
 
@@ -332,3 +332,5 @@ Closure actions allow us to define actions and use them across components. They 
 For further reading on Ember's closure actions, check out [this great post](http://alexdiliberto.com/posts/ember-closure-actions/) by Alex DiLiberto.
 
 <p data-visibility='hidden'>View <a href='https://learn.co/lessons/ember-closure-actions' title='Ember Components and Closure Actions'>Ember Components and Closure Actions</a> on Learn.co and start learning to code for free.</p>
+
+<p data-visibility='hidden'>View <a href='https://learn.co/lessons/ember-closure-actions'>Components and Closure Actions</a> on Learn.co and start learning to code for free.</p>
