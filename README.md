@@ -101,10 +101,10 @@ Here, we set give our component a property, `resource`, which we set equal to th
 ```javascript
 // app/templates/components/show-resource.hbs
 
-<h4>{{model.title}}</h4>  
-  <p>{{model.url}}</p> 
-  <p>topic: {{model.topic}}</p> 
-  <p>description: {{model.description}}</p
+<h4>{{resource.title}}</h4>  
+  <p>{{resource.url}}</p> 
+  <p>topic: {{resource.topic}}</p> 
+  <p>description: {{resource.description}}</p
 ```
 
 Now our component will properly render a given resource's title, url, topic and description. 
@@ -138,18 +138,18 @@ Now, let's edit our component's template to use `if/else` logic to show the edit
 ```javascript
 {{#if isEditing}}
 
-{{input value=model.title}}
-  <p>{{input value=model.url}}</p> 
-  <p>{{input value=model.topic}}</p> 
-  <p>{{textarea value=model.description}}</p> 
+{{input value=resource.title}}
+  <p>{{input value=resource.url}}</p> 
+  <p>{{input value=resource.topic}}</p> 
+  <p>{{textarea value=resource.description}}</p> 
   <button>Save</button>
 
 {{else}}
 
-<h4>{{model.title}}</h4>  
-  <p>{{model.url}}</p> 
-  <p>topic: {{model.topic}}</p> 
-  <p>description: {{model.description}}</p>
+<h4>{{resource.title}}</h4>  
+  <p>{{resource.url}}</p> 
+  <p>topic: {{resource.topic}}</p> 
+  <p>description: {{resource.description}}</p>
 
 {{/if}}
 ```
