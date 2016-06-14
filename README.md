@@ -181,7 +181,7 @@ Now, when a user double clicks anywhere on the component, i.e. the area of the w
 
 Now we can render a given resource via a component and toggle between editing and not editing that resource when a user double clicks on it. But we can't yet save the changes a user will make to that resource via the edit form. 
 
-This is where we run into some trouble. The component is isolated from the context in which it is called. It has no notion of what template it is being rendered it, it has no access to the data store or awareness of what Ember Data object it received data from. Consequently, we cannot define an action that saves changes to a resource within the component itself. For this, we must define an action in the controller. Then, using an Ember feature called closure actions, we can pass this action *into* our component. 
+This is where we run into some trouble. The component is isolated from the context in which it is called. It has no notion of what template it is being rendered in, it has no access to the data store or awareness of what Ember Data object it received data from. Consequently, we cannot define an action that saves changes to a resource within the component itself. For this, we must define an action in the controller. Then, using an Ember feature called closure actions, we can pass this action *into* our component. 
 
 With closure actions, we can define a particular action in a controller (in this case, the action of saving edits to, or updating, a resource) and pass that action into the component such that the current scope of the action gets passed down to the component as well. Then, we can trigger the invocation of this action directly from the component. 
 
@@ -334,3 +334,5 @@ For further reading on Ember's closure actions, check out [this great post](http
 <p data-visibility='hidden'>View <a href='https://learn.co/lessons/ember-closure-actions' title='Ember Components and Closure Actions'>Ember Components and Closure Actions</a> on Learn.co and start learning to code for free.</p>
 
 <p data-visibility='hidden'>View <a href='https://learn.co/lessons/ember-closure-actions'>Components and Closure Actions</a> on Learn.co and start learning to code for free.</p>
+
+<p class='util--hide'>View <a href='https://learn.co/lessons/ember-closure-actions'>Components and Closure Actions</a> on Learn.co and start learning to code for free.</p>
